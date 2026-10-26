@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(16, 16, 16);
+    color: white;
+
+    font-family: Poppins;
+    background-image: linear-gradient(rgba(24, 24, 24, 0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(24, 24, 24, 0.5) 1px, transparent 1px);
+    background-size: 40px 40px;
+
+}
+html{
+  scroll-behavior: smooth;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none; 
+    font-size: 20px;
+
+}
+header{
+    height: 60px;
+    background-color: rgba(20, 20, 20, 0.636);
+}
+.ul2{
+    margin-top: 15px;
+}
+a{
+    color: rgb(208, 234, 188);
+    font-weight: 500;
+
+    text-decoration: none;
+}
+#papiro{
+    position: absolute;
+    top: -10px;
+    width: 200px;
+    height: 80px;
+}
+.aa{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+      height: calc(100vh - 60px);
+
+}
+.principalbox{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
+    margin-left: 100px;
+      height: 400px;
+}
+.principalbox>h1{
+    font-size: 50px;
+    background: linear-gradient(to left,rgb(187, 249, 153),rgb(111, 186, 95));
+      background-clip: text;
+      color: transparent;
+
+
+}
+.principalbox>p{
+    font-weight: 400;
+    color: rgb(110, 123, 106);
+    font-size: 20px;
+    
+}
+.principalbox>div>a>button{
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: solid rgba(50, 78, 45) 2px;
+    background-color: rgb(33, 41, 30);
+    color: white;
+    font-weight: 400;   
+    font-family: JetBrains Mono;
+    cursor: pointer;
+      transition: all 0.1s ease-in-out;
+}
+
+
+.principalbox>div>a>button:hover{
+
+    background-color: rgb(43, 77, 62);
+
+}
+.principalbox>div{
+    display: flex;
+        margin-left:35px ;
+    gap: 10px;
+}
+.image{
+    margin-bottom: 100px;
+
+}
+.image>img{
+    border-radius: 10px;
+    border: solid rgba(1, 39, 1, 0.877) 2px;
+box-shadow: 0px 0px 15px 0px rgba(143, 240, 164, 0.036);
+border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+
+}
+.image>img:hover{
+    border-radius: 10px;
+    border: solid rgba(2, 66, 2, 0.877) 2px;
+box-shadow: 0px 0px 15px 0px rgba(161, 240, 178, 0.223);
+border-radius: 10px;
+}
+#pa{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100vw;
+}
+#Credit1{
+    width: 600px;
+    height: 400px; 
+    margin-right: 300px;
+}
+#Credit2{
+
+    width: 600px;
+    height: 400px;
+    color: rgb(208, 234, 188);
+    font-weight: 500;
+        margin-right: 100px;
+
+}
+#credits{
+    display: flex;
+        justify-content:space-evenly;
+    width: 100vw;
+}
+#cab{
+    border-radius: 50%;
+    border: solid rgb(10, 10, 10) 3px;
+
+}
+#Source{
+    display: flex;
+    justify-content:space-evenly;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(24, 24, 24, 0.353);
+    height: 200px;
+}
+#secpart{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+#secpart>#t{
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+                gap: 14px;
+        text-align: center;
+}
+#secpart>div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        text-align: center;
+        gap: 10px;
+}
+#secpart>div>a>p{
+    color: rgb(208, 234, 188);
+}
+
+#firstpart{
+    margin-bottom: 100px;
+}
